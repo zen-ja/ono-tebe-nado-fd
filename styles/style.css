@@ -4,7 +4,7 @@
 
 
 * {
-  outline: var(-debug);
+  outline: var(--debug);
 }
 
 body {
