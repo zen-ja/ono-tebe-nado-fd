@@ -31,9 +31,9 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  min-height: 105px;
   padding: 95px 50px 90px 50px;
   line-height: 1.0;
-  min-height: 105px;
 }
 
 .header__links-list {
@@ -53,10 +53,10 @@
   align-items: center;
 }
 
-.header__logo-image { 
+.header__logo-image {
   display: block;
-  min-height: 105px;
   min-width: 140px;
+  min-height: 105px;
 }
 
 .header__address {
@@ -75,8 +75,8 @@
 .cover__title {
   display: block;
   padding-top: 55px;
-  line-height: 1.35;
   font-size: 100px;
+  line-height: 1.35;
 }
 
 .aligned-text {
@@ -134,8 +134,8 @@
   padding-bottom: 26px;
   padding-left: 40px;
   color:#000;
-  line-height: 1.2;
   font-size: 40px;
+  line-height: 1.2;
 }
 
 .lots__card-list {
@@ -174,10 +174,10 @@
 
 .card__title {
   font-weight: bold;
-  text-decoration: underline;
-  text-transform: uppercase;
-  text-underline-offset: 0.15em;
   font-size: 22px;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -201,8 +201,8 @@
   margin-top: 30px;
   padding-left: 40px;
   font-size: 20px;
-  text-underline-offset: 0.25em;
   text-decoration-thickness: 0.5px;
+  text-underline-offset: 0.25em;
   text-transform: lowercase;
 }
 
