@@ -31,15 +31,14 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  min-height: 105px;
-  padding: 95px 50px 90px 50px;
+  padding: 93px 50px 88px 50px;
   line-height: 1.0;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
-  column-gap: 35px;
+  column-gap: 34px; 
   text-underline-offset: 0.2em;
   list-style-type: circle;
 }
@@ -48,20 +47,15 @@
   list-style-type: none;
 }
 
-.header__logo {
-  display: block;
-  align-items: center;
-}
-
 .header__logo-image {
-  display: block;
-  min-width: 140px;
-  min-height: 105px;
+  min-width: 138px;
+  padding-top: 5px;
+  padding-left: 3px; 
 }
 
 .header__address {
    justify-self: end;
-   max-width: 240px;
+   padding-left: 193px;
 }
 
 .cover {
@@ -198,8 +192,9 @@
 
 .lots__look-more-link {
   display: flex;
+  max-width: fit-content;
   margin-top: 30px;
-  padding-left: 40px;
+  margin-left: 40px;
   font-size: 20px;
   text-decoration-thickness: 0.5px;
   text-underline-offset: 0.25em;
@@ -209,7 +204,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px auto;
-  padding: 155px 24px 180px;
+  padding: 155px 24px 179px;
   font-size: 22px;
 }
 
@@ -256,7 +251,6 @@
 
 .footer__address {
   justify-self: left;
-  max-width: 260px;
 }
 
 .footer__menu {
