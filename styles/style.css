@@ -5,7 +5,7 @@
 }
 
 .content {
-   background-color: #FFF;
+  background-color: #FFF;
 }
 
 .link-active {
@@ -38,7 +38,7 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  column-gap: 34px; 
+  column-gap: 34px;
   text-underline-offset: 0.2em;
   list-style-type: circle;
 }
@@ -50,12 +50,12 @@
 .header__logo-image {
   min-width: 138px;
   padding-top: 5px;
-  padding-left: 3px; 
+  padding-left: 3px;
 }
 
 .header__address {
-   justify-self: end;
-   padding-left: 193px;
+  justify-self: end;
+  padding-left: 193px;
 }
 
 .cover {
@@ -91,7 +91,7 @@
 }
 
 .no-letter-spacing {
-  margin-right:-30px;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -127,7 +127,7 @@
 .lots__heading {
   padding-bottom: 26px;
   padding-left: 40px;
-  color:#000;
+  color: #000;
   font-size: 40px;
   line-height: 1.2;
 }
@@ -137,7 +137,7 @@
   flex-wrap: wrap;
   align-content: space-between;
   gap: 25px;
-  padding-left: 0;
+  /* padding-left: 0; */
   color: #F5F5F5;
   list-style: none;
 }
@@ -213,7 +213,7 @@
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-color:#000;
+  background-color: #000;
 }
 
 .about__column {
@@ -227,7 +227,7 @@
 
 .about__title {
   padding: 100px 25px 90px;
-  color:#000;
+  color: #000;
   font-weight: bold;
   font-size: 40px;
 }
@@ -237,13 +237,13 @@
   flex-direction: column;
   gap: 1.3em;
   padding: 10px 25px 0px;
-  color:#000;
+  color: #000;
   font-size: 20px;
 }
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   min-width: 100%;
   padding: 0px 50px 80px;
@@ -272,11 +272,11 @@
 .footer__social-list {
   display: flex;
   justify-self: right;
-  gap:48px;
+  gap: 48px;
   list-style-type: none;
 }
 
 .footer__social-icon {
   width: 48px;
-  height:48px;
+  height: 48px;
 }
